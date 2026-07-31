@@ -12,6 +12,7 @@ Welcome to my Java DSA repository.
 - Patterns
 - Methods
 - Arrays
+- String
 
 ## Language
 
