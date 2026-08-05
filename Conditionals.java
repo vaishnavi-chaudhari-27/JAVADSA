@@ -236,6 +236,7 @@ public class Conditionals {
         } else {
             System.out.println("Sorry you are a Fail");
         }
+        sc.close();
     }
 
 }

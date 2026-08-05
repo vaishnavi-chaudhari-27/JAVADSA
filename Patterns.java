@@ -150,7 +150,7 @@ public class Patterns {
 
         // Solid diamond pattern///
         // Solid Diamond Pattern
-        int m = 5;
+        // int m = 5;
 
         // Upper Half///
         // for (int row = 1; row <= m; row++) {
@@ -279,4 +279,3 @@ public class Patterns {
         }
 
     }
-
