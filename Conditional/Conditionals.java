@@ -1,7 +1,9 @@
+package Conditional;
+
 import java.util.Scanner;
 
 public class Conditionals {
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         // if-statement //
         // int dailypractice = 12;
         // if (dailypractice >= 10) {
@@ -240,3 +242,4 @@ public class Conditionals {
     }
 
 }
+

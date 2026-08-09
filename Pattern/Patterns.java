@@ -1,6 +1,7 @@
+package Pattern;
+
 public class Patterns {
-    public static void main(String[] args) {
-        // Solid Square patt//
+      // Solid Square patt//
         // int n = 5;
         // for (int row = 1; row <= n; row++) {
         // for (int col = 1; col <= n; col++) {
@@ -259,7 +260,8 @@ public class Patterns {
         // System.out.println();
         // }
 
-        int n = 4;
+        public static void main(String[] args) {
+            int n = 4;
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= n - row; col++) {
                 System.out.print("   ");
@@ -267,7 +269,6 @@ public class Patterns {
             for (int col = 1; col <= row; col++) {
                 System.out.print(col + "  ");
             }
-            int rowValue = row;
             int decRowValue = row-1;
             for(int col=1; col<=row-1; col++){
                 System.out.print(decRowValue + "  ");
@@ -275,7 +276,7 @@ public class Patterns {
             }
                System.out.println();
             }
-            
+   
+        }
         }
 
-    }

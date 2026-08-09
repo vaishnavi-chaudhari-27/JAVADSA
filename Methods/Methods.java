@@ -1,5 +1,7 @@
+package Methods;
+
 public class Methods {
-    // static void printTwoTables() {
+     // static void printTwoTables() {
     // for (int i = 1; i <= 10; i++) {
     // int ans = 2 * i;
     // System.out.println("-> " + ans);

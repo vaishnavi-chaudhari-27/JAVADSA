@@ -1,5 +1,7 @@
-public class BasicMaths {
-    // Que 1 print digits of a number //
+package BasicsMaths;
+
+public class BasicMath {
+     // Que 1 print digits of a number //
     // static void printDigits(int num) {
     // while (num != 0) {
     // int digit = num % 10;
@@ -239,3 +241,5 @@ public class BasicMaths {
     System.out.println("Even digits count = " + count);
     }
 }
+
+

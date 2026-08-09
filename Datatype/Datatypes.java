@@ -1,4 +1,6 @@
-public class DataTypes {
+package Datatype;
+
+public class Datatypes {
     public static void main(String[] args) {
         byte num1 = 100;
         System.out.println(num1);
@@ -16,3 +18,5 @@ public class DataTypes {
 
     }
 }
+
+
