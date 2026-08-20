@@ -1,4 +1,5 @@
-import java.math.BigInteger;
+
+// import java.math.BigInteger;
 import java.util.Scanner;
 
 public class TakingInput {
@@ -64,5 +65,7 @@ public class TakingInput {
       int Square = sc.nextInt();
       System.out.println("Square = " + Square * Square);
       System.out.println("Cube = " + Square * Square * Square);
+
+      sc.close();
    }
 }
