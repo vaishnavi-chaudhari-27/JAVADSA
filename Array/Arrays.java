@@ -1,4 +1,5 @@
-package Array;
+
+import java.util.Scanner;
 
 public class Arrays {
     public static void main(String[] args) {
@@ -118,16 +119,54 @@ public class Arrays {
         // }
 
         // problem 1 print matrix//
-        int[][] matrix = {
-                { 1, 2, 3 },
-                { 4, 5, 6 }
-        };
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+        // int[][] matrix = {
+        // { 1, 2, 3 },
+        // { 4, 5, 6 }
+        // };
+        // for (int i = 0; i < matrix.length; i++) {
+        // for (int j = 0; j < matrix[i].length; j++) {
+        // System.out.print(matrix[i][j] + " ");
+        // }
+        // System.out.println();
+        // }
 
+        // Que 2 Find sum of all values in array//
+        // int size;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter The Size Of Array: ");
+        // size = sc.nextInt();
+
+        // int arr[] = new int[size];
+
+        // for (int count = 1; count <= size; count++) {
+        // int index = count - 1;
+        // System.out.println("Enter The Value Of index: " + index);
+        // arr[index] = sc.nextInt();
+        // }
+        // int sum = 0;
+        // for(int num: arr){
+        // sum = sum + num;
+        // }
+        // System.out.println("Total Sum: " + sum);
+
+        // Find minimum vaalue in array//
+        // int arr[] = {100, 50,20,150,-5,250,-50,12,16};
+        // int mini = Integer.MAX_VALUE;
+        // for(int num: arr){
+        // if(num < mini){
+        // mini = num;
+        // }
+        // }
+        // System.out.println("Minimum number is: " + mini);
+
+        // Find maximumm vaalue in array//
+        int arr[] = { 100, 50, 20, 150, -5, 250, -50, 12, 16 };
+        int maxi = Integer.MIN_VALUE;
+        for (int num : arr) {
+            if (num > maxi) {
+                maxi = num;
+            }
+        }
+        System.out.println("Maximum number is" + maxi);
     }
 }

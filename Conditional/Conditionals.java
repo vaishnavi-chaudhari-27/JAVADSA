@@ -1,9 +1,9 @@
-package Conditional;
+
 
 import java.util.Scanner;
 
 public class Conditionals {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         // if-statement //
         // int dailypractice = 12;
         // if (dailypractice >= 10) {
@@ -226,20 +226,60 @@ public class Conditionals {
         // }
 
         // Que 9 print grades based on marks A, B, C, Fail//
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter the marks: ");
+        // int marks = sc.nextInt();
+        // if (marks >= 80) {
+        // System.out.println("The grade of Marks A");
+        // } else if (marks >= 65) {
+        // System.out.println("The Grade of Marks B");
+        // } else if (marks >= 45) {
+        // System.out.println("The Grade of Marks C");
+        // } else {
+        // System.out.println("Sorry you are a Fail");
+        // }
+        // sc.close();
+        // }
+
+        // Que 10 Take age input and prrint id he/she is eligible to vote o not//
+
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enterr Your Age: ");
+        // int Age = sc.nextInt();
+        // if (Age >= 18) {
+        //     System.out.println("she is Eligible for Vote");
+        // } else {
+        //     System.out.println("she is Not Eligible for Vote");
+        // }
+
+
+        // Que 11 Take input 5 subject marks and print the overall percentage of student//
+            
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the marks: ");
-        int marks = sc.nextInt();
-        if (marks >= 80) {
-            System.out.println("The grade of Marks A");
-        } else if (marks >= 65) {
-            System.out.println("The Grade of Marks B");
-        } else if (marks >= 45) {
-            System.out.println("The Grade of Marks C");
-        } else {
-            System.out.println("Sorry you are a Fail");
-        }
-        sc.close();
+        System.out.println("Enter the Java Subject Marks: ");
+        int Java = sc.nextInt();
+
+        System.out.println("Enter the Python Subject Marks: ");
+        int Python = sc.nextInt();
+
+        System.out.println("Enter the HTML Subject Marks: ");
+        int Html = sc.nextInt();
+
+        System.out.println("Enter the CPP Subject Marks: ");
+        int Cpp = sc.nextInt();
+
+        System.out.println("Enter the DSA Subject Marks: ");
+        int DSA = sc.nextInt();
+        
+        int total = Java + Python + Html + Cpp + DSA;
+        double percentage = (total / 500.0) * 100;
+
+        System.out.println("Total Marks of Student: " + total);
+        System.out.println("Total percetage of Student: " + percentage + "%");
+
+
+       
+
     }
 
 }
-

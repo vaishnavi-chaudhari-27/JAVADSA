@@ -80,15 +80,38 @@ public class Operator {
             System.out.println("Zero");
         }
 
-
         // Q3. Find Greatest of Two Numbers
-        int x =  20;
+        int x = 20;
         int y = 35;
-        if(x > y) {
-           System.out.println("x");
+        if (x > y) {
+            System.out.println(x);
         } else {
-            System.out.println("y");
+            System.out.println(y);
         }
 
+        // two numbers value print//
+        int num1 = 20;
+        int num2 = 30;
+
+        int sum = num1 + num2;
+        System.out.println(sum);
+
+        int sub = num1 - num2;
+        System.out.println(sub);
+
+        int multi = num1 * num2;
+        System.out.println(multi);
+
+        double div = (double)num1 / num2;
+        System.out.println(div);
+
+        // Student marks//
+
+        int marks = 50;
+        if (marks >= 40) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("fail");
+        }
     }
 }
