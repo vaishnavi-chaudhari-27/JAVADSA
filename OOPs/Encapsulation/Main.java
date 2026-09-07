@@ -1,16 +1,16 @@
-package OOPs;
+package OOPs.Encapsulation;
 
-// public class Main {
-//     public static void main(String[] args) {
-//         Employee e = new Employee();
+public class Main {
+    public static void main(String[] args) {
+        Employee e = new Employee();
 
-//         e.setName("Vaishu");
-//         System.out.println("Employee Name: " + e.getName());
+        e.setName("Vaishu");
+        System.out.println("Employee Name: " + e.getName());
 
-//         e.setSalary(15000);
-//         System.out.println("Employee Salary: " + e.getSalary());
-//     }
-// }
+        e.setSalary(15000);
+        System.out.println("Employee Salary: " + e.getSalary());
+    }
+}
 
 // public class Main {
 // public static void main(String[] args) {
@@ -79,3 +79,4 @@ package OOPs;
 // car1.display();
 // }
 // }
+
