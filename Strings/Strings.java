@@ -60,16 +60,15 @@ public class Strings {
         // char[] ch = name.toCharArray();
 
         // for(char c: ch) {
-        //     System.out.println(c);
+        // System.out.println(c);
         // }
 
         String name = "    ";
         System.out.println(name.length());
 
-        if(name.isEmpty()){
+        if (name.isEmpty()) {
             System.out.println("String is empty");
-        }
-        else {
+        } else {
             System.out.println("String is not empty");
         }
     }
