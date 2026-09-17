@@ -23,7 +23,7 @@ class Teachar {
 }
 
 class MathTeacher extends Teachar {
-    @Override 
+    @Override `
     void teach() {
         super.teach();
         System.out.println("Teaching Mathematics");
